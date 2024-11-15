@@ -1,0 +1,60 @@
+.mainboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    border: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: aliceblue;
+    margin: 2%;
+}
+  
+.cell:active {
+    outline: none;
+}
+
+#button {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: auto;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#print {
+    font-size: 30px;
+    text-decoration: double;
+    color: firebrick;
+}
+
+#main {
+    text-align: center;
+}
+
+.gamedescription {
+    font-size: larger;
+    margin: 3%;
+}
+
+.resetbutton {
+    padding-top: 2%;
+}
+
